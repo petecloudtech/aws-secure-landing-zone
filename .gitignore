@@ -1,0 +1,15 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+*.plan.json
+review.json
+crash.log
+crash.*.log
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/

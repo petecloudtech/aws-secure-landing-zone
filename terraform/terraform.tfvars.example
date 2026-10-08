@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars only in your own checkout. Never commit real values.
+expected_account_id = "123456789012"
+notification_email  = "you@example.com"
+
+# Optional overrides:
+# aws_region         = "us-east-2"
+# monthly_budget_usd = 20
+# log_retention_days = 90
